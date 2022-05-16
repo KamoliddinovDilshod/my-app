@@ -1,0 +1,41 @@
+.todo__title {
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+margin: 10px;
+}
+
+.todo__input {
+  display: block;
+  font-size: medium;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.7;
+  padding: 10px;
+}
+
+.footer__box{
+  display: flex;
+  justify-content: center;
+}
+
+.footer__btn{
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  width: 114px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+}

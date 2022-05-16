@@ -1,0 +1,63 @@
+.task{
+  font-size: 25px;
+}
+
+.task__title{
+  font-size: 30px;
+  text-align: center;
+  margin-left: 18px;
+}
+
+.task__box{
+  display: block;
+  margin: 0 auto;
+}
+
+.task__packet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.task__subtitle{
+  font-size: 30px;
+  text-align: center;
+  margin-left: 18px;
+}
+
+.task__textarea{
+  resize: vertical;
+  margin-right: 45px;
+}
+
+.btn__packet{
+  display: inline-block;
+  width: 85px;
+}
+
+.task__trunk{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.task__delatebtn{
+  background-color: red;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  width: 75px;
+  padding: 5px 15px;
+}
+
+.task__complate{
+  font-size: 30px;
+  text-align: center;
+  margin-left: 18px;
+  text-decoration: line-through;
+}
